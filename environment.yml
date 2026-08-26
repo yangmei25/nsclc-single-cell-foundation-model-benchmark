@@ -1,0 +1,26 @@
+name: scrna-oncology-fm
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - scanpy=1.11
+  - anndata
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - python-igraph
+  - leidenalg
+  - scikit-misc
+  - harmonypy<2
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - jupyterlab
+  - ipykernel
+  - pyyaml
+  - r-base
+  - r-matrix
+  - r-readxl

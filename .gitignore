@@ -1,0 +1,38 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded and derived data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/metadata/source/*
+!data/metadata/source/.gitkeep
+
+# Generated results
+results/figures/*
+!results/figures/.gitkeep
+!results/figures/demo/
+results/embeddings/*
+!results/embeddings/.gitkeep
+
+# Superseded exploratory notebooks and local paper copies
+notebooks/legacy/
+scripts/legacy/
+papers/*.pdf
+
+# Keep only the final demo tables in the public repository
+results/tables/*
+!results/tables/.gitkeep
+!results/tables/dataset_sample_inventory.csv
+!results/tables/demo_10sample_cohort.csv
+!results/tables/cell_level_pca_vs_scgpt_metrics.csv
+!results/tables/sample_level_three_line_metrics.csv
+!results/tables/sample_level_feature_directions.csv
+
+# Downloaded foundation-model checkpoints
+models/*
+!models/.gitkeep

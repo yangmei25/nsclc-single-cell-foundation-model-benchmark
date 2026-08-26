@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this demo, please cite this repository, the source study, GSE205335, and scGPT as appropriate."
+title: "scGPT-Scanpy NSCLC single-cell demo"
+type: software
+authors:
+  - family-names: Li
+    given-names: Yangmei
+version: 1.0.0
+date-released: 2026-08-26
+license: MIT
+repository-code: "https://github.com/yangmei25/scgpt-scanpy-nsclc-single-cell-demo"
+keywords:
+  - single-cell RNA sequencing
+  - NSCLC
+  - scGPT
+  - Scanpy
+  - foundation model
+references:
+  - type: article
+    title: "Unveiling the influence of tumor and immune signatures on immune checkpoint therapy in advanced lung cancer"
+    authors:
+      - family-names: Kim
+        given-names: Nayoung
+      - family-names: Park
+        given-names: Sehhoon
+    year: 2024
+    journal: eLife
+    volume: 13
+    doi: 10.7554/eLife.98366.3
+  - type: dataset
+    title: "Single-cell transcriptome profiles of tumor tissues from lung cancer patients receiving immune checkpoint inhibitors"
+    authors:
+      - family-names: Lee
+        given-names: Hae-Ock
+      - family-names: Ahn
+        given-names: Myung-Ju
+    year: 2024
+    repository: "NCBI Gene Expression Omnibus"
+    repository-code: "GSE205335"
+    url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205335"
+  - type: article
+    title: "scGPT: toward building a foundation model for single-cell multi-omics using generative AI"
+    authors:
+      - family-names: Cui
+        given-names: Haotian
+      - family-names: Wang
+        given-names: Chloe
+      - family-names: Maan
+        given-names: Hassaan
+    year: 2024
+    journal: Nature Methods
+    volume: 21
+    start: 1470
+    end: 1480
+    doi: 10.1038/s41592-024-02201-0
+    url: "https://github.com/bowang-lab/scGPT"

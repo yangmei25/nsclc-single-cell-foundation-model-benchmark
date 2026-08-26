@@ -1,0 +1,34 @@
+"Sample","Patient","Tissue origin","Cancer subtype","Stage","Smoking","Immunotherapy","Lines of therapy","Sampling date","Immunotherapy start date","RECIST","Response","PD","PFS_event","PFS","OS_event","OS","Class","Platform","Multiplexing"
+"EBUS_06","P1006","Tumor Lung","ADC","IV","Cur","Vibostolimab+Pembrolizumab","3rd",2017-06-27,2018-05-29,"PR","Responder","non-PD",0,36.91803,0,36.91803,"Core","3p",
+"EFFUSION_06","P1006","Malignant PE","ADC","IV","Cur","Vibostolimab+Pembrolizumab","3rd",2017-06-27,2018-05-29,"PR","Responder","non-PD",0,36.91803,0,36.91803,"Core","3p",
+"EBUS_27","P1027","Metastatic LN","ADC","IV","Never","Pembrolizumab","2nd",2018-01-03,2018-03-15,"PR","Responder","non-PD",1,8.065574,1,14.36066,"Core","5p",
+"EBUS_37","P1037","Metastatic LN","SQ","IVA","Ex","Pembrolizumab","2nd",2018-02-21,2018-07-11,"PR","Responder","non-PD",0,8.95082,1,30.36066,"Core","3p",
+"EBUS_90","P1090","Metastatic LN","SQ","IIIA","Ex","Pembrolizumab","2nd",2019-03-06,2019-05-30,"PR","Responder","non-PD",0,23.86885,0,23.86885,"Core","5p","LC_M3"
+"EBUS_17","P1017","Metastatic LN","SQ","IV","Cur","Pembrolizumab","2nd",2017-08-28,2018-01-18,"SD","Non-responder","non-PD",1,3.901639,1,4.852459,"Core","5p",
+"LM_17","P1017","Metastatic Liver","SQ","IV","Cur","Pembrolizumab","2nd",2017-08-29,2018-01-18,"SD","Non-responder","non-PD",1,3.901639,1,4.852459,"Core","5p",
+"PCNB_01","P4001","Tumor Lung","ADC","IV","Never","Pembrolizumab","2nd",2018-02-20,2018-08-14,"SD","Non-responder","non-PD",1,4.852459,1,14.13115,"Core","5p","LC_M3"
+"EBUS_30","P1030","Metastatic LN","ADC","IV","Ex","Pembrolizumab","3rd",2018-01-22,2019-05-14,"PD","Non-responder","PD",1,1.278689,1,2.655738,"Core","5p","LC_M3"
+"EBUS_62","P1062","Metastatic LN","ADC","IV","Ex","Pembrolizumab","2nd",2018-05-04,2018-10-05,"PD","Non-responder","PD",1,1.803279,1,14.22951,"Core","5p",
+"EBUS_76","P1076","Metastatic LN","ADC","IV","Never","Nivolumab","3rd",2018-08-17,2019-01-02,"PD","Non-responder","PD",1,1.606557,1,10.78689,"Core","3p",
+"NECK_05","P1076","Metastatic LN","ADC","IV","Never","Nivolumab","3rd",2018-08-17,2019-01-02,"PD","Non-responder","PD",1,1.606557,1,10.78689,"Core","3p",
+"EBUS_89","P1089","Metastatic LN","ADC","IV","Ex","Atezolizumab","3rd",2019-02-27,2019-06-21,"PD","Non-responder","PD",1,1.04918,1,1.344262,"Core","3p",
+"EBUS_119","P1119","Metastatic LN","ADC","IV","Ex","Pembrolizumab","1st",2019-11-20,2019-12-06,"PD","Non-responder","PD",1,0.786885,1,2.163934,"Core","3p",
+"EBUS_16","P1016","Metastatic LN","SCLC","ED","Cur","Pembrolizumab","1st",2017-08-17,2017-08-30,"PR",,,1,8.229508,1,14.32787,"Add","5p","LC_M2"
+"LM_16","P1016","Metastatic Liver","SCLC","ED","Cur","Pembrolizumab","1st",2017-08-18,2017-08-30,"PR",,,1,8.229508,1,14.32787,"Add","5p",
+"LM_115","P1115","Metastatic Liver","SCLC","ED","Ex","Etoposide+Carboplatin+Atezolizumab","1st",2019-11-01,2019-11-02,"PR",,,1,7.245902,1,8.557377,"Add","3p",
+"EBUS_56","P1056","Metastatic LN","NUT","IV","Ex","Quavonlimab+Pembrolizumab","1st",2018-04-18,2018-05-04,"SD",,,1,1.803279,1,2.098361,"Add","3p",
+"LM_56","P1056","Metastatic Liver","NUT","IV","Ex","Quavonlimab+Pembrolizumab","1st",2018-04-18,2018-05-04,"SD",,,1,1.803279,1,2.098361,"Add","3p",
+"EBUS_15","P1015","Metastatic LN","ADC","IIIA","Cur","Adjuvant Pembrolizumab","adj",2017-08-07,2017-12-05,"PD",,,1,1.737705,1,45.77049,"Add","3p",
+"EBUS_25","P1025","Metastatic LN","SCLC","IV","Never","Pembrolizumab","4th",2017-11-16,2018-09-21,"PD",,,1,0.721311,1,1.704918,"Add","3p",
+"EBUS_84","P1084","Metastatic LN","ADC","IV","Never","Atezolizumab","2nd",2018-12-24,2019-08-12,"NE",,,1,1.737705,1,1.737705,"Add","5p",
+"EBUS_18","P1018","Tumor Bronchus","ADC","IV","Ex","Pembrolizumab","2nd",2017-09-28,2017-12-06,"NE",,,1,1.114754,1,1.114754,"Add","5p",
+"BRONCHO_63","P1063","Tumor Bronchus","ADC","IV","Ex","Atezolizumab","3rd",2018-05-08,2018-08-06,"NE",,,1,0.065574,1,0.065574,"Add","5p","LC_M3"
+"EBUS_63","P1063","Metastatic LN","ADC","IV","Ex","Atezolizumab","3rd",2018-05-11,2018-08-06,"NE",,,1,0.065574,1,0.065574,"Add","5p",
+"EBUS_79","P1079","Metastatic LN","ADC","IV","Cur","Nivolumab","2nd",2018-11-15,2019-01-28,"NE",,,1,1.081967,1,1.081967,"Add","5p",
+"EBUS_72","P1072","Metastatic LN","SCLC","ED","Ex","Nivolumab","3rd",2018-07-04,2019-01-30,"NE",,,1,0.032787,1,0.032787,"Add","5p",
+"LUNG_T31","P0031","Tumor Lung","ADC","IIIA","Ex","Adjuvant Pembrolizumab","adj",2018-02-07,2018-04-06,"NE",,,1,10.4918,1,10.4918,"Add","3p",
+"LUNG_N31","P0031","Normal Lung","ADC","IIIA","Ex","Adjuvant Pembrolizumab","adj",2018-02-07,2018-04-06,"NE",,,1,10.4918,1,10.4918,"Add","3p",
+"LN_16","P2016","Normal LN","SQ","IIB","Cur","Pembrolizumab","2nd",2018-06-27,2019-01-09,"PD",,,1,2.229508,1,2.360656,"Add","5p",
+"LN_01","P2001","Normal LN","ADC","IIB","Cur","Pembrolizumab","2nd",2018-04-27,2018-12-07,"PR",,,0,30.98361,0,30.98361,"Add","3p",
+"LN_09","P2009","Normal LN","ADC","IB","Ex","Atezolizumab","3rd",2018-06-04,2019-08-12,"PR",,,0,23.04918,0,23.04918,"Add","5p","LC_M2"
+"NS_32","P3032","Normal Brain","ADC","IV","Ex","Pembrolizumab","1st",2020-01-07,2018-12-26,"PR",,,0,30.29508,0,30.29508,"Add","5p",

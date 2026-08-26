@@ -1,0 +1,11 @@
+Sample,cells,Patient,Response,Platform
+EBUS_17,4167,P1017,Non-responder,5p
+EBUS_27,4600,P1027,Responder,5p
+EBUS_30,861,P1030,Non-responder,5p
+EBUS_37,4983,P1037,Responder,3p
+EBUS_62,3057,P1062,Non-responder,5p
+EBUS_76,2454,P1076,Non-responder,3p
+EBUS_89,1609,P1089,Non-responder,3p
+EBUS_90,976,P1090,Responder,5p
+EBUS_119,2386,P1119,Non-responder,3p
+NECK_05,4521,P1076,Non-responder,3p

@@ -1,0 +1,26 @@
+name: scrna-oncology-scgpt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - scanpy
+  - anndata
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - python-igraph
+  - leidenalg
+  - ipykernel
+  - jupyterlab
+  - pip:
+      # scGPT 0.2.4 does not cap torch, but torchtext 0.18 is binary-compatible
+      # with torch 2.3. Pin the pair so a future torch release is not selected.
+      - torch==2.3.0
+      - torchtext==0.18.0
+      - scgpt==0.2.4
+      # Required by datasets 2.21, which scGPT installs.
+      - fsspec[http]<=2024.6.1

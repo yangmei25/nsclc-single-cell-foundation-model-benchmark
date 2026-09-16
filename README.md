@@ -1,18 +1,41 @@
 # scGPT–Scanpy NSCLC single-cell demo
 
-This completed project is a runnable demonstration of how conventional Scanpy
-analysis and frozen scGPT embeddings connect from cell level to sample level.
-It is not a paper-figure reproduction or a validated clinical response model.
+A reproducible benchmark asking whether frozen scGPT embeddings provide more
+informative biological representations than a conventional Scanpy/PCA workflow
+in a selected NSCLC single-cell cohort. The analysis connects cell-level
+representations to sample-level summaries while keeping patients and samples as
+the biological units of interpretation.
 
-This demo is an **independent reanalysis of a selected subset** of the published
-GSE205335 data. It deliberately restricts the main experiments to ten
-site-matched metastatic-lymph-node samples so that Scanpy PCA and frozen scGPT
-can be compared on the same cells and then carried into sample-level summaries.
-Its purpose is to demonstrate and evaluate this cell-to-sample workflow—not to
-reproduce the paper's figures, repeat every analysis in the original cohort, or
-claim replication of all published biological and clinical conclusions.
+## At a glance
 
-**Final results and interpretation:** [`results/FINAL_REPORT.md`](results/FINAL_REPORT.md)
+| Component | Evidence |
+|---|---|
+| Dataset | **29,614 cells** from **10 metastatic lymph-node samples** representing 9 patients |
+| Comparison | Conventional Scanpy/PCA versus frozen, 512-dimensional scGPT embeddings on the same cells |
+| Broad cell types | Sample-held-out kNN accuracy: **0.923 scGPT** versus **0.832 PCA** |
+| Important boundary | scGPT retained stronger platform separation; PCA performed better for some fine-grained CD8 T-cell states |
+| Sample-level analysis | Compared cell composition, CD4/CD8 functional programs, mean pooling, and cluster-aware scGPT pooling |
+| Strongest exploratory signal | CD4/CD8 functional programs: **0.258 silhouette**, exact permutation **p = 0.033** |
+
+![Broad-cell PCA and scGPT comparison](results/figures/demo/cell_level_broad_pca_vs_scgpt.png)
+
+## What this project demonstrates
+
+- A patient- and sample-aware evaluation rather than treating thousands of
+  cells from the same patient as independent biological replicates.
+- Direct comparison of a biological foundation model against a conventional
+  baseline using held-out samples, clustering agreement, silhouette metrics,
+  and platform-effect diagnostics.
+- Evaluation at both cell and sample levels, including cases where scGPT wins,
+  ties, or loses rather than assuming foundation-model superiority.
+- Reproducible notebooks, modular analysis code, environment specifications,
+  quantitative outputs, data provenance, and explicit interpretation limits.
+
+This is an **independent reanalysis of a selected subset** of GSE205335. It is
+not a paper-figure reproduction or a validated clinical response model. The
+small response cohort supports an exploratory technical demonstration only.
+
+**Full results and interpretation:** [`results/FINAL_REPORT.md`](results/FINAL_REPORT.md)
 
 ## Demo dataset
 
@@ -114,18 +137,6 @@ The official whole-human scGPT checkpoint belongs under `models/scGPT_human/`:
 The cell-level benchmark is allowed to conclude that scGPT wins, ties, or loses
 against PCA. The sample-level section is an explanatory demo: ten samples can
 show a pattern, but cannot establish a clinically validated response predictor.
-
-## Completed result
-
-- Frozen scGPT improves broad-cell sample-held-out kNN accuracy (0.923 versus
-  0.832 for PCA), but has more platform separation.
-- Scanpy PCA performs better for CD8 fine states; scGPT is not universally
-  superior.
-- CD4/CD8 functional programs provide the strongest sample-level response
-  separation (silhouette 0.258; exact 3-vs-7 permutation p=0.033).
-- CD4/CD8 scGPT pooling shows a weaker trend; whole-cell pooling and composition
-  alone show little separation.
-- Simple mean pooling slightly outperforms the tested cluster-aware weighting.
 
 ## Citation
 

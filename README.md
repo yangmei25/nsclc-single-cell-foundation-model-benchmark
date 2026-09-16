@@ -1,4 +1,4 @@
-# scGPT–Scanpy NSCLC single-cell demo
+# NSCLC Single-Cell Foundation Model Benchmark
 
 A reproducible benchmark asking whether frozen scGPT embeddings provide more
 informative biological representations than a conventional Scanpy/PCA workflow

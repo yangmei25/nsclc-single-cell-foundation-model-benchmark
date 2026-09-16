@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this demo, please cite this repository, the source study, GSE205335, and scGPT as appropriate."
-title: "scGPT-Scanpy NSCLC single-cell demo"
+title: "NSCLC Single-Cell Foundation Model Benchmark"
 type: software
 authors:
   - family-names: Li
@@ -8,7 +8,7 @@ authors:
 version: 1.0.0
 date-released: 2026-08-26
 license: MIT
-repository-code: "https://github.com/yangmei25/scgpt-scanpy-nsclc-single-cell-demo"
+repository-code: "https://github.com/yangmei25/nsclc-single-cell-foundation-model-benchmark"
 keywords:
   - single-cell RNA sequencing
   - NSCLC

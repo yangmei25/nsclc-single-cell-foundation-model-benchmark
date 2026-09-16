@@ -1,4 +1,4 @@
-# Final report — scGPT–Scanpy NSCLC single-cell demo
+# Final Report — NSCLC Single-Cell Foundation Model Benchmark
 
 ## Project status
 
